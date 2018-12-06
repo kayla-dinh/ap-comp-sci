@@ -14,7 +14,7 @@
 <body> 
 <div class="container">
 <div class="row">
-<h1>AP Computer Science Projects (fixed*)</h1>
+<h1>AP Computer Science Projects *</h1>
 <p> <strong>These are my AP Computer Science projects.
      I used Python Turtle to create them.</strong></p>
  </div>
@@ -56,13 +56,52 @@
     </div>
      
     <div class="col">
- <img src="mandala.png"
-          style="width="500" height="450" frameborder="0" marginwidth="0" marginheight="0"
-          alt="mandala" class="image">
+    <style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+         
+<div class="container">
+  <img src="mandala.png" alt="mandala" class="image">
   <div class="overlay">
-    <div class="text"> This is my mandala.</div>
-    <div class="col"> 
-      </div>
+    <div class="text">This is my mandala!</div>
       
        
  
