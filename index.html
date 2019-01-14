@@ -1,158 +1,171 @@
 <!DOCTYPE html> 
-<html lang="en">
-<head>
-     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<html lang="en">
+	<head>
+	     <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<style>
-.imagelayer {
-  position: relative;
-  width: 100%;
-}
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<style>
+	.imagelayer {
+	  position: relative;
+	  width: 100%;
+	}
+	
+	.image {
+	  display: block;
+	  width: 500;
+	  height: 450;
+	}
+	
+	.overlay {
+	  position: absolute;
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  height: 100%;
+	  width: 100%;
+	  opacity: 0;
+	  transition: .5s ease;
+	  background-color: #FFFFFF;
+	}
+	
+	.imagelayer:hover .overlay {
+	  opacity: 1;
+	}
+	
+	.text {
+	  color: black;
+	  font-size: 20px;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  -webkit-transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+	  text-align: center;
+	}
+	     </style>
+	     <title>AP Computer Science</title>
+	
 
-.image {
-  display: block;
-  width: 500;
-  height: 450;
-}
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</head>
+	<body> 
+	<div class="container">
+	<div class="row">
+	<h1>AP Computer Science Projects </h1>
+	<p> <strong>These are my AP Computer Science projects.
+	     I used Python Turtle to create them.</strong></p>
+	 </div>
+	 
+	 <div class="row">
+	    <div class="col">
+	         <p>This is the output for the code I wrote for the flag of Japan </p>
+	         <iframe src="https://trinket.io/embed/python/74a01df53c?outputOnly=true&runOption=run&start=result" width="500" height="450" frameborder="0" marginwidth="0" marginheight="0"></iframe>
+	
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #FFFFFF;
-}
+	</div>
+	      
+	    <div class="col">
+	         <p> This is the output for the code I wrote for my modern art project</p>
+	         <iframe src="https://trinket.io/embed/python/cf0983a353?outputOnly=true&runOption=run&start=result" width="500" height="450" frameborder="0" marginwidth="0" marginheight="0"></iframe>
+	
 
-.imagelayer:hover .overlay {
-  opacity: 1;
-}
+	</div>
+	    
+	    <div class="w-100"></div>
+	    
+	    <div class="col">
+	         <p>This is the output for the code I wrote for a geometric shape</p>
+	         <iframe src="https://trinket.io/embed/python/b718419426?outputOnly=true&runOption=run&start=result" width="500" height="450" frameborder="0" marginwidth="0" marginheight="0"></iframe>
+	
 
-.text {
-  color: black;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-     </style>
-     <title>AP Computer Science</title>
+	  </div>
+	    
+	     <div class="col">
+	         <p>This is how I wrote "Hi" using Python Turtle.</p>
+	         <iframe src="https://trinket.io/embed/python/e1ff871b04?outputOnly=true&runOption=run&start=result" width="500" height="450" frameborder="0" marginwidth="0" marginheight="0"></iframe>
+	
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</head>
-<body> 
-<div class="container">
-<div class="row">
-<h1>AP Computer Science Projects </h1>
-<p> <strong>These are my AP Computer Science projects.
-     I used Python Turtle to create them.</strong></p>
- </div>
- 
- <div class="row">
-    <div class="col">
-         <p>This is the output for the code I wrote for the flag of Japan </p>
-         <iframe src="https://trinket.io/embed/python/74a01df53c?outputOnly=true&runOption=run&start=result" width="500" height="450" frameborder="0" marginwidth="0" marginheight="0"></iframe>
+	    </div>
+	      
+	      <div class="w-100"></div>
+	   
+	    <div class="col">
+	         
+	         <p>This is how I wrote the letter "A" using Python Turtle.</p>
+	        <iframe src="https://trinket.io/embed/python/c2d82d32bc?outputOnly=true&runOption=run&start=result" width="500" height="450" frameborder="0" marginwidth="0" marginheight="0"></iframe>
+	
 
+	  </div>
+	       
+	      
+	  <div class="w-100"></div>
+	 
 </div>
-      
-    <div class="col">
-         <p> This is the output for the code I wrote for my modern art project</p>
-         <iframe src="https://trinket.io/embed/python/cf0983a353?outputOnly=true&runOption=run&start=result" width="500" height="450" frameborder="0" marginwidth="0" marginheight="0"></iframe>
+	    <div class="col imagelayer">
+	     
+	  <img src="mandala.png" width="500" height="450"  class="image" title="mandala">
+	 
+	    <div class="overlay">
+	     <div class="text">This is my mandala!</div>
+	     </div>
+	   </div>
+	     
+	    <div class="col">    
+	    <div class="w-100"></div>    
+	 
+	  </div>
+	                   
+	
 
-</div>
-    
-    <div class="w-100"></div>
-    
-    <div class="col">
-         <p>This is the output for the code I wrote for a geometric shape</p>
-         <iframe src="https://trinket.io/embed/python/b718419426?outputOnly=true&runOption=run&start=result" width="500" height="450" frameborder="0" marginwidth="0" marginheight="0"></iframe>
-
-  </div>
-    
-     <div class="col">
-         <p>This is how I wrote "Hi" using Python Turtle.</p>
-         <iframe src="https://trinket.io/embed/python/e1ff871b04?outputOnly=true&runOption=run&start=result" width="500" height="450" frameborder="0" marginwidth="0" marginheight="0"></iframe>
-
-    </div>
-      
-      <div class="w-100"></div>
-   
-    <div class="col">
-         
-         <p>This is how I wrote the letter "A" using Python Turtle.</p>
-        <iframe src="https://trinket.io/embed/python/c2d82d32bc?outputOnly=true&runOption=run&start=result" width="500" height="450" frameborder="0" marginwidth="0" marginheight="0"></iframe>
-
-  </div>
-       
-      
-  <div class="w-100"></div>
- 
-    <div class="col imagelayer">
-     
-  <img src="mandala.png" width="500" height="450"  class="image" title="mandala">
- 
-    <div class="overlay">
-     <div class="text">This is my mandala!</div>
-     </div>
-   </div>
-     
-    <div class="col">    
-    <div class="w-100"></div>    
- 
-  </div>
-                   
-
- <div class="row">
-  <div class="column">
-    <p> This is the output for the code I wrote for my coin flip simulation</p>
-        <iframe src="https://trinket.io/embed/python/44e36fb62f?outputOnly=true&runOption=run&start=result" width="500" height="450" frameborder="0" marginwidth="0" marginheight="0"></iframe>
-    <div class="w-100"></div>
-      </div>
-       </div>
-                    
-  </div>
-  <div class="column">
-     <p> This is the output for the code I wrote for my dice roll simulation</p>
-        <iframe src="https://trinket.io/embed/python/6d84edb63b?outputOnly=true&runOption=run&start=result" width="500" height="450" frameborder="0" marginwidth="0" marginheight="0"></iframe>
-  </div>
-</div>  
- 
-     <div class="w-100"></div>
-      </div>
-       </div>
-                    
-  </div>
- <div class="col">
-         
-         <p>This is my code for finding the position of a number in a list using Python.</p>
- <iframe src="https://trinket.io/embed/python/030993a1aa?outputOnly=true&runOption=run&start=result" width="500" height="450" frameborder="0" marginwidth="0" marginheight="0"></iframe>                 
-      </div>
-       <div class="col">
-<div class="w-100"></div>
-      </div>
-       </div>
-                    
-  </div>
-     <div class="col">
-         
-         <p>This is my code for making a field of flowers using Python Turtle.</p>         
-        <iframe src="https://trinket.io/embed/python/4116b47f69?outputOnly=true&runOption=run&start=result" width="500" height="450" frameborder="0" marginwidth="0" marginheight="0"></iframe>
-     </div>
-       <div class="col">
- </div>
-</body>
-  
-</html>
+	 <div class="row">
+	  <div class="col">
+	    <p> This is the output for the code I wrote for my coin flip simulation</p>
+	        <iframe src="https://trinket.io/embed/python/44e36fb62f?outputOnly=true&runOption=run&start=result" width="500" height="450" frameborder="0" marginwidth="0" marginheight="0"></iframe>
+	    <div class="w-100"></div>
+	      </div>
+	       </div>
+	                    
+	  </div>
+	<div class="row">  
+<div class="col">
+	     <p> This is the output for the code I wrote for my dice roll simulation</p>
+	        <iframe src="https://trinket.io/embed/python/6d84edb63b?outputOnly=true&runOption=run&start=result" width="500" height="450" frameborder="0" marginwidth="0" marginheight="0"></iframe>
+	  </div>
+	</div>  
+	 
+	     <div class="w-100"></div>
+	      </div>
+	       </div>
+	                    
+	  </div>
+<div class = “row”>
+	 <div class="col">
+	         
+	         <p>This is my code for finding the position of a number in a list using Python.</p>
+	 <iframe src="https://trinket.io/embed/python/030993a1aa?outputOnly=true&runOption=run&start=result" width="500" height="450" frameborder="0" marginwidth="0" marginheight="0"></iframe>                 
+	      </div>
+<div class = “row”>
+	       <div class="col">
+	<div class="w-100"></div>
+	      </div>
+	       </div>
+	                    
+	  </div>
+<div class = “row”>
+	     <div class="col">
+	         
+	         <p>This is my code for making a field of flowers using Python Turtle.</p>         
+	        <iframe src="https://trinket.io/embed/python/4116b47f69?outputOnly=true&runOption=run&start=result" width="500" height="450" frameborder="0" marginwidth="0" marginheight="0"></iframe>
+	     </div>
+	       
+	 </div>
+	</body>
+	  
+	</html>
 
