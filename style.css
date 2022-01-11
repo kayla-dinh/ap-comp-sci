@@ -30,3 +30,11 @@ h1{
 	body{
 	   background-color: white;
 	}
+
+
+.container{
+	height: 30rem;
+	width:80rem;
+	background-color:blue;
+
+}
